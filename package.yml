@@ -1,0 +1,16 @@
+name       : ruby-wdm
+version    : 0.1.1
+release    : 1
+source     :
+    - https://rubygems.org/downloads/wdm-0.1.1.gem : 28406f5f236796019bea5b2a85e37cbcd229ec928c8b68261947a44eec15b474
+license    : MIT
+component  : programming.ruby
+summary    : RubyGem - wdm
+description: |
+    Windows Directory Monitor (WDM) is a library which can be used to monitor directories for changes. It's mostly implemented in C and uses the Win32 API for a better performance.
+builddeps  :
+    - pkgconfig(ruby-2.3)
+rundeps    :
+    - ruby
+install    : |
+    %gem_install

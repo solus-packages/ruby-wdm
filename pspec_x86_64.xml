@@ -1,0 +1,62 @@
+<PISI>
+    <Source>
+        <Name>ruby-wdm</Name>
+        <Packager>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Packager>
+        <License>MIT</License>
+        <PartOf>programming.ruby</PartOf>
+        <Summary xml:lang="en">RubyGem - wdm</Summary>
+        <Description xml:lang="en">Windows Directory Monitor (WDM) is a library which can be used to monitor directories for changes. It&apos;s mostly implemented in C and uses the Win32 API for a better performance.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>ruby-wdm</Name>
+        <Summary xml:lang="en">RubyGem - wdm</Summary>
+        <Description xml:lang="en">Windows Directory Monitor (WDM) is a library which can be used to monitor directories for changes. It&apos;s mostly implemented in C and uses the Win32 API for a better performance.
+</Description>
+        <PartOf>programming.ruby</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/build_info</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/extensions/x86_64-linux/2.3.0/wdm-0.1.1/gem.build_complete</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/extensions/x86_64-linux/2.3.0/wdm-0.1.1/gem_make.out</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/wdm-0.1.1/LICENSE</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/wdm-0.1.1/README.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/wdm-0.1.1/ext/wdm/Makefile</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/wdm-0.1.1/ext/wdm/entry.c</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/wdm-0.1.1/ext/wdm/entry.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/wdm-0.1.1/ext/wdm/extconf.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/wdm-0.1.1/ext/wdm/memory.c</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/wdm-0.1.1/ext/wdm/memory.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/wdm-0.1.1/ext/wdm/monitor.c</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/wdm-0.1.1/ext/wdm/monitor.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/wdm-0.1.1/ext/wdm/queue.c</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/wdm-0.1.1/ext/wdm/queue.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/wdm-0.1.1/ext/wdm/rb_change.c</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/wdm-0.1.1/ext/wdm/rb_change.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/wdm-0.1.1/ext/wdm/rb_monitor.c</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/wdm-0.1.1/ext/wdm/rb_monitor.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/wdm-0.1.1/ext/wdm/utils.c</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/wdm-0.1.1/ext/wdm/utils.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/wdm-0.1.1/ext/wdm/wdm.c</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/wdm-0.1.1/ext/wdm/wdm.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/wdm-0.1.1/ext/wdm/wdm.sln</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/wdm-0.1.1/ext/wdm/wdm.vcxproj</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/wdm-0.1.1/ext/wdm/wdm.vcxproj.filters</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/wdm-0.1.1/lib/wdm.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/specifications/wdm-0.1.1.gemspec</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-03-23</Date>
+            <Version>0.1.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Update>
+    </History>
+</PISI>
