@@ -1,6 +1,6 @@
 name       : ruby-wdm
 version    : 0.1.1
-release    : 2
+release    : 3
 source     :
     - https://rubygems.org/downloads/wdm-0.1.1.gem : 28406f5f236796019bea5b2a85e37cbcd229ec928c8b68261947a44eec15b474
 license    : MIT
